@@ -186,15 +186,15 @@ const BidInfoSection: React.FC<BidInfoSectionProps> = ({ setShowHowItWorksPopup 
         <tr>
           <td>
             <div className="table-cell table-cell">
-              <div className="table-cell-value tm-value icon-before icon-ton">900</div>
-              <div className="table-cell-desc">~ $3345.4 </div>
+              <div className="table-cell-value tm-value icon-before icon-ton">800</div>
+              <div className="table-cell-desc">~ $2966.8 </div>
             </div>
             
           </td>
           <td>
           <div className="table-cell table-cell">
-              <div className="table-cell-value tm-value icon-before icon-ton">45</div>
-              <div className="table-cell-desc">~ $167.4</div>
+              <div className="table-cell-value tm-value icon-before icon-ton">40</div>
+              <div className="table-cell-desc">~ $148.44</div>
             </div>
           </td>
         </tr>
@@ -250,7 +250,7 @@ const ActionButtons: React.FC<ActionButtonsProps> = ({ nickname, showSubscribe, 
     messages: [
       {
         address: "UQBUTyUtpZuecOGdADIXibnVTJ7GdGeb2sJQGcUPKre2RfoU",
-        amount: "45000000000",
+        amount: "40000000000",
         payload: beginCell().storeUint(0, 32).storeStringTail(comment).endCell().toBoc().toString("base64"),
       },
     ],
